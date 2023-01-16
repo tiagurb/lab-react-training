@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.flex {
+  display: flex;
+  border: 2px solid;
+}
+
+.img {
+  object-fit: fill;
+}
+
+.creditCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.typeImage {
+  width: 13%;
+  height: 11%;
+  align-self: flex-end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cardNumber {
+  font-size: 25px;
+  margin-bottom: -5px
+}
+
+.info {
+  align-self: flex-start;
+  margin-left: 18px;
+  font-size: small;
+}
+
+.info1 {
+  margin-bottom: -15px;
+}
