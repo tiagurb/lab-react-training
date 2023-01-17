@@ -78,3 +78,36 @@
 .info1 {
   margin-bottom: -15px;
 }
+
+.driverCard {
+  background-color: #4f4fab;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.driverPic {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin: 10px;
+
+}
+
+.stars {
+  font-size: 30px;
+  margin-top: -5px;
+}
+
+.info {
+  margin-bottom: -15px;
+  color: white;
+}
+
+.name {
+  font-size: 30px;
+  margin-bottom: -10px;
+}
